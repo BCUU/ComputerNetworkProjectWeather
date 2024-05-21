@@ -1,0 +1,16 @@
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\bin\Debug\net8.0-windows\ComputerNetworkProject.exe
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\bin\Debug\net8.0-windows\ComputerNetworkProject.deps.json
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\bin\Debug\net8.0-windows\ComputerNetworkProject.runtimeconfig.json
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\bin\Debug\net8.0-windows\ComputerNetworkProject.dll
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\bin\Debug\net8.0-windows\ComputerNetworkProject.pdb
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.Form1.resources
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.csproj.GenerateResource.cache
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.AssemblyInfoInputs.cache
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.AssemblyInfo.cs
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.csproj.CoreCompileInputs.cache
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.dll
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\refint\ComputerNetworkProject.dll
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.pdb
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ComputerNetworkProject.genruntimeconfig.cache
+C:\Users\CanBe\Documents\VisualStudioProjects\ComputerNetworkProject\ComputerNetworkProject\obj\Debug\net8.0-windows\ref\ComputerNetworkProject.dll
