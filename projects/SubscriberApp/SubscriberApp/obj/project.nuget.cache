@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mxww3H3/AJo=",
+  "dgSpecHash": "uNJCiN7WdFQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BCU\\source\\repos\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
+  "projectFilePath": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BCU\\.nuget\\packages\\asyncio\\0.1.69\\asyncio.0.1.69.nupkg.sha512",
     "C:\\Users\\BCU\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.10\\microsoft.extensions.objectpool.8.0.10.nupkg.sha512",

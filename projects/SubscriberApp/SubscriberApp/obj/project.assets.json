@@ -378,11 +378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BCU\\source\\repos\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
+      "projectUniqueName": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
       "projectName": "SubscriberApp",
-      "projectPath": "C:\\Users\\BCU\\source\\repos\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
+      "projectPath": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\SubscriberApp\\SubscriberApp\\SubscriberApp.csproj",
       "packagesPath": "C:\\Users\\BCU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BCU\\source\\repos\\SubscriberApp\\SubscriberApp\\obj\\",
+      "outputPath": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\SubscriberApp\\SubscriberApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

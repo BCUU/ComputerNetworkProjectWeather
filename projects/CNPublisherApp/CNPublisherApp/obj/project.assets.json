@@ -378,11 +378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BCU\\source\\repos\\CNPublisherApp\\CNPublisherApp\\CNPublisherApp.csproj",
+      "projectUniqueName": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\CNPublisherApp\\CNPublisherApp\\CNPublisherApp.csproj",
       "projectName": "CNPublisherApp",
-      "projectPath": "C:\\Users\\BCU\\source\\repos\\CNPublisherApp\\CNPublisherApp\\CNPublisherApp.csproj",
+      "projectPath": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\CNPublisherApp\\CNPublisherApp\\CNPublisherApp.csproj",
       "packagesPath": "C:\\Users\\BCU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BCU\\source\\repos\\CNPublisherApp\\CNPublisherApp\\obj\\",
+      "outputPath": "C:\\Users\\BCU\\Documents\\GitHub\\ComputerNetworkProjectWeather\\projects\\CNPublisherApp\\CNPublisherApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

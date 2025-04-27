@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SubscriberApp")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CNPublisherApp")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59b598c1d3ee906f4050c73974a6b4f908c5010f")]
-[assembly: System.Reflection.AssemblyProductAttribute("SubscriberApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SubscriberApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("CNPublisherApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CNPublisherApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

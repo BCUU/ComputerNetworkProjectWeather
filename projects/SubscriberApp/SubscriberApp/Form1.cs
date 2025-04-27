@@ -61,7 +61,6 @@ namespace SubscriberApp
                 lastProcessedTasks = tasksString;
                 string[] tasks = tasksString.Split(';');
 
-                // checkedListBox1.Items.Clear(); // Eskileri temizliyoruz
                 UpdateProgress();
 
                 foreach (string task in tasks)
