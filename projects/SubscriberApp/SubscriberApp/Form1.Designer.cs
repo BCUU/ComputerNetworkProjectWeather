@@ -60,10 +60,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(1037, 15);
-            pictureBox1.Margin = new Padding(6);
+            pictureBox1.Location = new Point(558, 7);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(90, 90);
+            pictureBox1.Size = new Size(48, 42);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -75,11 +74,9 @@
             groupBox1.Controls.Add(richTextBox1);
             groupBox1.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point, 162);
             groupBox1.ForeColor = Color.DarkCyan;
-            groupBox1.Location = new Point(905, 433);
-            groupBox1.Margin = new Padding(6);
+            groupBox1.Location = new Point(487, 203);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(6);
-            groupBox1.Size = new Size(338, 209);
+            groupBox1.Size = new Size(182, 98);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Tag = "groupbox1";
@@ -91,10 +88,9 @@
             richTextBox1.BackColor = Color.DarkCyan;
             richTextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
             richTextBox1.ForeColor = Color.LightCyan;
-            richTextBox1.Location = new Point(12, 63);
-            richTextBox1.Margin = new Padding(6);
+            richTextBox1.Location = new Point(6, 30);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(337, 134);
+            richTextBox1.Size = new Size(183, 65);
             richTextBox1.TabIndex = 4;
             richTextBox1.Tag = "richtextbox1";
             richTextBox1.Text = "dasdasdasdasdasdsadasdasdasdasdas";
@@ -104,10 +100,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label1.ForeColor = Color.DarkCyan;
-            label1.Location = new Point(22, 26);
-            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Location = new Point(12, 12);
             label1.Name = "label1";
-            label1.Size = new Size(537, 86);
+            label1.Size = new Size(267, 45);
             label1.TabIndex = 5;
             label1.Text = "Welcome Ahmet";
             // 
@@ -116,10 +111,9 @@
             checkedListBox1.BackColor = Color.DarkCyan;
             checkedListBox1.ForeColor = Color.Azure;
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(22, 257);
-            checkedListBox1.Margin = new Padding(6);
+            checkedListBox1.Location = new Point(12, 120);
             checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(654, 256);
+            checkedListBox1.Size = new Size(354, 112);
             checkedListBox1.TabIndex = 7;
             checkedListBox1.ItemCheck += checkedListBox1_ItemCheck;
             // 
@@ -127,17 +121,15 @@
             // 
             progressBar1.BackColor = Color.LightCyan;
             progressBar1.ForeColor = Color.DarkCyan;
-            progressBar1.Location = new Point(22, 548);
-            progressBar1.Margin = new Padding(6);
+            progressBar1.Location = new Point(12, 257);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(657, 21);
+            progressBar1.Size = new Size(354, 10);
             progressBar1.TabIndex = 8;
             // 
             // monthCalendar1
             // 
             monthCalendar1.BackColor = Color.DarkCyan;
-            monthCalendar1.Location = new Point(870, 120);
-            monthCalendar1.Margin = new Padding(17, 19, 17, 19);
+            monthCalendar1.Location = new Point(468, 56);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 9;
             // 
@@ -146,29 +138,30 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label2.ForeColor = Color.DarkCyan;
-            label2.Location = new Point(22, 192);
-            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Location = new Point(12, 90);
             label2.Name = "label2";
-            label2.Size = new Size(239, 59);
+            label2.Size = new Size(122, 30);
             label2.TabIndex = 10;
             label2.Text = "Your Taks :";
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(16, 649);
-            listBox1.Margin = new Padding(6, 4, 6, 4);
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(9, 304);
+            listBox1.Margin = new Padding(3, 2, 3, 2);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(1239, 100);
+            listBox1.Size = new Size(669, 49);
             listBox1.TabIndex = 0;
             listBox1.Visible = false;
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(20, 603);
+            checkBox1.Location = new Point(11, 283);
+            checkBox1.Margin = new Padding(2, 1, 2, 1);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(160, 36);
+            checkBox1.Size = new Size(82, 19);
             checkBox1.TabIndex = 11;
             checkBox1.Text = "Show Data";
             checkBox1.UseVisualStyleBackColor = true;
@@ -176,11 +169,11 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(1300, 753);
+            ClientSize = new Size(700, 353);
             Controls.Add(checkBox1);
             Controls.Add(label2);
             Controls.Add(monthCalendar1);
@@ -191,7 +184,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(listBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(6, 4, 6, 4);
+            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";

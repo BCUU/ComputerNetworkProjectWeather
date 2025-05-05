@@ -1,8 +1,11 @@
 using System;
+using System.Security.Policy;
 using System.Windows.Forms;
 using NetMQ;
 using NetMQ.Sockets;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+
 
 namespace SubscriberApp
 {
@@ -12,18 +15,20 @@ namespace SubscriberApp
         private System.Windows.Forms.Timer timer;
         public string name;
         private string lastProcessedTasks = "";
+        public string publisherIP;
 
         public Form1()
         {
             InitializeComponent();
             subscriber = new SubscriberSocket();
-            subscriber.Connect("tcp://127.0.0.1:12345");
+            subscriber.Connect($"tcp://{publisherIP}:12345");
 
             timer = new System.Windows.Forms.Timer();
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
             timer.Start();
         }
+
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
@@ -147,11 +152,13 @@ namespace SubscriberApp
             this.BeginInvoke((MethodInvoker)(() => UpdateProgress()));
         }
 
-        
+
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             listBox1.Visible = checkBox1.Checked;
         }
+
+       
     }
 }

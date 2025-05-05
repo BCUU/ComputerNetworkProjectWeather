@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SubscriberApp
 {
@@ -23,14 +24,14 @@ namespace SubscriberApp
             {
                 Form1 form1 = new Form1();
 
-                if (string.IsNullOrWhiteSpace(textBox1.Text))
+                if (string.IsNullOrWhiteSpace(textBox1.Text)|| string.IsNullOrWhiteSpace(textBox2.Text))
                 {
-                    MessageBox.Show("You are subscribed to all channel", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return; // Eğer boşsa, devam etme
+                    MessageBox.Show("null value", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return; 
                 }
-
                 form1.name = textBox1.Text.ToString();
-                form1.Show(); // Formu açmayı da ekleyelim istersen
+                form1.publisherIP= textBox2.Text.Trim();
+                form1.Show(); 
                 this.Hide();
             }
             catch (Exception ex)
@@ -38,6 +39,7 @@ namespace SubscriberApp
                 MessageBox.Show("erorr: " + ex.Message, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
     }
 }

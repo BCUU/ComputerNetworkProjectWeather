@@ -1,8 +1,5 @@
 using System;
 using System.Net;
-using System.Net.Mail;
-using System;
-using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
 using System.Threading.Tasks;
@@ -14,8 +11,6 @@ using System.ServiceModel.Channels;
 using System.Threading.Channels;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Reflection.Emit;
-using NetMQ;
-using NetMQ.Sockets;
 
 namespace CNPublisherApp
 {
@@ -28,14 +23,31 @@ namespace CNPublisherApp
             InitializeComponent();
             try
             {
+                string localIP = GetLocalIPAddress();
                 publisher = new PublisherSocket();
-                publisher.Bind("tcp://127.0.0.1:12345"); 
+                publisher.Bind($"tcp://{localIP}:12345");
+                MessageBox.Show($"Publisher baþlatýldý: {localIP}:12345");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("PublisherSocket error: " + ex.Message);
             }
         }
+
+
+        private string GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            throw new Exception("IPv4 adresi bulunamadý!");
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -62,9 +74,8 @@ namespace CNPublisherApp
                 comboBox1.Items.Add(city);
             }
 
-            comboBox1.SelectedIndex = 0; // Varsayýlan olarak ilk þehri seçin
+            comboBox1.SelectedIndex = 0; 
 
-            // Seçili þehir için hava durumunu yükleyin
             LoadWeatherDataAsync(comboBox1.SelectedItem.ToString());
         }
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
