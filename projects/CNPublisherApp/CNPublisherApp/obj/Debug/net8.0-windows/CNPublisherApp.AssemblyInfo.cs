@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CNPublisherApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c99622e18d5f2a4d385abaef25fbc36829121d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10779f1b42230efaf02c694cc16151a81a17234b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CNPublisherApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CNPublisherApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

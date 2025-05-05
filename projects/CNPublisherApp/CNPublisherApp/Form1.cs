@@ -113,8 +113,8 @@ namespace CNPublisherApp
 
                         label1.Text = $"{cityNameValue} tempature: {temp}°C";
                         label2.Text = $"{cityNameValue} state: {weatherDesc}";
-                        label5.Text = $"Nem: {hum}%";
-                        label6.Text = $"Humidity: {speed} m/s";
+                        label5.Text = $"Humidity: {hum}%";
+                        label6.Text = $"Wind: {speed} m/s";
                     }
                     else
                     {
